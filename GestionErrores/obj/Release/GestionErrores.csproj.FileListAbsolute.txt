@@ -1,0 +1,17 @@
+C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\bin\Release\GestionErrores.dll
+C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\bin\Release\GestionErrores.pdb
+C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\bin\Release\Newtonsoft.Json.dll
+C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\bin\Release\Newtonsoft.Json.xml
+C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csproj.CoreCompileInputs.cache
+C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csproj.CopyComplete
+C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.dll
+C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.pdb
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\bin\Release\GestionErrores.dll
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\bin\Release\GestionErrores.pdb
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\bin\Release\Newtonsoft.Json.dll
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\bin\Release\Newtonsoft.Json.xml
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csprojAssemblyReference.cache
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csproj.CopyComplete
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.dll
+C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.pdb

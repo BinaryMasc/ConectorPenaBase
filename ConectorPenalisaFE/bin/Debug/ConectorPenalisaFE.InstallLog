@@ -1,0 +1,42 @@
+﻿Instalando ensamblado 'C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe
+   logfile = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.InstallLog
+Deshaciendo ensamblado 'C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe
+   logfile = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.InstallLog
+Instalando ensamblado 'C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   assemblypath = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe
+   logfile = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.InstallLog
+Deshaciendo ensamblado 'C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   assemblypath = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe
+   logfile = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.InstallLog
+Instalando ensamblado 'C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   assemblypath = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe
+   logfile = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.InstallLog
+Instalando ensamblado 'C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe
+   logfile = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.InstallLog
+Instalando el servicio Conector_FE...
+Creando el origen de EventLog Conector_FE en el registro Application...
+Deshaciendo ensamblado 'C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   i = 
+   assemblypath = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.exe
+   logfile = C:\Users\Binary\source\repos\ConectorPenalisaFE\ConectorPenalisaFE\bin\Debug\ConectorPenalisaFE.InstallLog
+Restaurando el registro de eventos al estado anterior para el origen Conector_FE.
