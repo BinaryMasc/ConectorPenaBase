@@ -163,6 +163,9 @@ namespace Documents
             string Pref_Anterior = "";
 
             //  Comienza el recorrido por los campos para extraer
+            //  TODO: desde un principio se ha manejado la instrucción Do while acá, cosa que no se usa en la instrucción de las
+            //        Notas de crédito, por alguna razón el do while(consulta.Read()) funciona acá y en las notas no, por lo
+            //        que se usa solo while(consulta.Read()) en la linea 654.
             do
             {
                 int iterador = 0;
