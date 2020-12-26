@@ -9,7 +9,7 @@ namespace ConfiguracionNS
     public class Configuracion : FileConfig
     {
 
-        //static string path = "C:\\Users\\" + Environment.UserName + "\\Documents\\ConectorFE\\data.config";
+        //static string path = "C:\\Users\\" + Environment.UserName + "\\Documents\\ConectorFE\\data.config";   
 
         public Configuracion() { }
 
