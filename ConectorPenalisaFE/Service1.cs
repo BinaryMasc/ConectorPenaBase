@@ -12,6 +12,12 @@ namespace ConectorPenalisaFE
 {
     public partial class Service1 : ServiceBase
     {
+
+        //  TODO: Se establece esto para cuando se llegue a la fecha, se cambie la configuración. cambiar de base de datos
+        //        2020 a 2021
+       
+        private DateTime fechaLimiteNuevoA_o;    //temporal
+
         public Configuracion Config_Conector;
         public Service1()
         {
@@ -47,6 +53,8 @@ namespace ConectorPenalisaFE
             //  Ajustando Timer
             ConfigTimerService(Config_Conector.IntervaloTimerConector * 60000);
 
+            fechaLimiteNuevoA_o = new DateTime(2021, 01, 01, 09, 0, 0); //  TODO
+
 
         }
 
@@ -61,6 +69,11 @@ namespace ConectorPenalisaFE
         public void OnTimer(object sender, ElapsedEventArgs args)
         {
             timer1.Stop();
+
+            //  TODO: Después de la fecha indicada, esta condición es inútil
+            if (DateTime.Now < fechaLimiteNuevoA_o) Config_Conector.Nombre_BBDD = "SIIMED0012020";
+            else Config_Conector.Nombre_BBDD = "SIIMED0012021";
+
             try
             {
                 if (tipoDoc_Flag) Agente.EjecutarFac(Config_Conector, ref eventLog1);
