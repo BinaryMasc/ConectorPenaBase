@@ -15,3 +15,12 @@ C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErro
 C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csproj.CopyComplete
 C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.dll
 C:\Users\Jesus\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.pdb
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\bin\Release\GestionErrores.dll
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\bin\Release\GestionErrores.pdb
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\bin\Release\Newtonsoft.Json.dll
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\bin\Release\Newtonsoft.Json.xml
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csproj.AssemblyReference.cache
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csproj.CoreCompileInputs.cache
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.csproj.CopyComplete
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.dll
+C:\Users\Binary\Desktop\ConectorPenalisaFE\GestionErrores\obj\Release\GestionErrores.pdb

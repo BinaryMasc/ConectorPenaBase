@@ -71,7 +71,7 @@ namespace ConectorPenalisaFE
             timer1.Stop();
 
             //  TODO: Después de la fecha indicada, esta condición es inútil
-            if (DateTime.Now < fechaLimiteNuevoA_o) Config_Conector.Nombre_BBDD = "SIIMED0012020";
+            if (DateTime.Now.Date < fechaLimiteNuevoA_o.Date) Config_Conector.Nombre_BBDD = "SIIMED0012020";
             else Config_Conector.Nombre_BBDD = "SIIMED0012021";
 
             try

@@ -81,7 +81,7 @@ namespace Documents.FAC
                 TotalBrutoDocumentoImpu = datosRelleno[36];
                 TotalDocumento = datosRelleno[37];
                 if (datosRelleno.Length >= 39) NombreAdquirente = datosRelleno[38];
-
+                ActividadEconomicaEmisor = "9329";
 
             }
             else if (tipo == "Direccion")
@@ -211,6 +211,8 @@ namespace Documents.FAC
         public string TotalBrutoDocumentoImpu { get; set; }
         public string TotalDocumento { get; set; }
         public string NombreAdquirente { get; set; }
+        public string ActividadEconomicaEmisor { get; set; }
+
         public string MetodoPagoTransporte { get; set; }
         public string CondicionEntrega { get; set; }
         public string LineaDireccion { get; set; }

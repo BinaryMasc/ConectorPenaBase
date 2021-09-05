@@ -64,6 +64,8 @@ namespace Documents.DOCs
                 TotalBrutoDocumentoImpu = datosRelleno[32];
                 TotalDocumento = datosRelleno[33];
                 if(TipoAdquirente == "02" || TipoAdquirente == "2") NombreAdquirente = datosRelleno[34];
+                ActividadEconomicaEmisor = "9329";
+
             }
             else if (tipo == "Direccion")
             {
@@ -140,6 +142,14 @@ namespace Documents.DOCs
                 MailOculto = datosRelleno[3];
                 MailTipo = datosRelleno[4];
             }
+            else if (tipo == "MedioPago")
+            {
+                LineaMedioPago = datosRelleno[0];
+                IdMedioPago = datosRelleno[1];
+                CodigoMedioPago = datosRelleno[2];
+                FechaMedioPago = datosRelleno[3];
+                IdentificadorPago = datosRelleno[4];
+            }
 
         }
 
@@ -179,6 +189,14 @@ namespace Documents.DOCs
         public string TotalBrutoDocumentoImpu { get; set; }
         public string TotalDocumento { get; set; }
         public string NombreAdquirente { get; set; }
+        public string ActividadEconomicaEmisor { get; set; }
+
+        public string LineaMedioPago { get; set; }
+        public string IdMedioPago { get; set; }
+        public string CodigoMedioPago { get; set; }
+        public string FechaMedioPago { get; set; }
+        public string IdentificadorPago { get; set; }
+
         public string LineaDireccion { get; set; }
         public string TipoDireccion { get; set; }
         public string IdDUNS { get; set; }

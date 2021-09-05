@@ -63,7 +63,6 @@ C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\bin\Release\Gestio
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\bin\Release\WSConnectDBNet.pdb
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\bin\Release\Newtonsoft.Json.xml
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\bin\Release\RestSharp.xml
-C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.csprojAssemblyReference.cache
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.ConectorPanel.resources
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.FormConfig.resources
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.ProjectInstaller.resources
@@ -73,3 +72,4 @@ C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\Conect
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.csproj.CopyComplete
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.exe
 C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.pdb
+C:\Users\Binary\Desktop\ConectorPenalisaFE\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.csproj.AssemblyReference.cache

@@ -25,3 +25,16 @@ C:\Users\Jesus\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDB
 C:\Users\Jesus\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDBNet.csproj.CopyComplete
 C:\Users\Jesus\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDBNet.dll
 C:\Users\Jesus\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDBNet.pdb
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\bin\Release\WSConnectDBNet.dll
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\bin\Release\WSConnectDBNet.pdb
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\bin\Release\GestionErrores.dll
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\bin\Release\Newtonsoft.Json.dll
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\bin\Release\RestSharp.dll
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\bin\Release\GestionErrores.pdb
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\bin\Release\Newtonsoft.Json.xml
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\bin\Release\RestSharp.xml
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDBNet.csproj.AssemblyReference.cache
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDBNet.csproj.CoreCompileInputs.cache
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDBNet.csproj.CopyComplete
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDBNet.dll
+C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Release\WSConnectDBNet.pdb

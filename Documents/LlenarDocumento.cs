@@ -353,23 +353,31 @@ namespace Documents
                     //  Llenar Impuesto
                     if (iterador == INDICE_IMPUESTO)
                     {
-                        data = "1";
-                        int iteradorTemp = 0;
+                        //  Si base imponible es 0, omitir
+                        if (consulta[INDICE_IMPUESTO + 3].ToString() == "0.00")
+                            iterador = INDICE_MEDIOPAGO;
 
-                        while (iteradorTemp < CAMPOS_IMPUESTO)
+
+                        else
                         {
+                            data = "1";
+                            int iteradorTemp = 0;
 
-                            data += "|" + consulta[iterador].ToString();
-                            iterador++;
-                            iteradorTemp++;
+                            while (iteradorTemp < CAMPOS_IMPUESTO)
+                            {
+
+                                data += "|" + consulta[iterador].ToString();
+                                iterador++;
+                                iteradorTemp++;
+                            }
+
+                            Funciones.AgregarCampoFAC(ref informacionDocumentoFAC, "Impuesto", data);
+
                         }
-
-                        Funciones.AgregarCampoFAC(ref informacionDocumentoFAC, "Impuesto", data);
-
                     }
 
                     //  Definimos el segundo impuesto en caso de que venga != ""
-                    if (consulta[IndiceIndicadorImpuestoBaseImponible2].ToString() != "")
+                    if (consulta[IndiceIndicadorImpuestoBaseImponible2].ToString() != "" && consulta[IndiceIndicadorImpuestoBaseImponible2].ToString() != "0.00")
                         Funciones.AgregarCampoFAC(ref informacionDocumentoFAC, "Impuesto", $"2|COP|{consulta[IndiceTotalImpuesto2].ToString()}|{consulta[IndiceIndicadorImpuesto2].ToString()}|{consulta[IndiceIndicadorImpuestoBaseImponible2].ToString()}|{consulta[IndicePorcentajeImpuesto2].ToString()}|{consulta[IndiceNumeroImpuesto2].ToString()}|{consulta[IndiceNombreImpuesto2].ToString()}");
 
                     //  Llenar MedioPago
@@ -633,6 +641,7 @@ namespace Documents
             const int INDICE_ITEM = 55;
             const int INDICE_IMPUESTOITEM = 66;
             const int INDICE_REFERENCIA = 73;
+            const int INDICE_MEDIOPAGO = 76;
 
             const int CAMPOS_ENCABEZADO = 34;
             const int CAMPOS_DIRECCION = 10;
@@ -646,6 +655,7 @@ namespace Documents
             List<Documents.DOCs.infoDoc> InformacionDocumentoNota = new List<Documents.DOCs.infoDoc>();
 
             string lineareferencia = "";
+            string lineaMedioPago = "";
 
             int DOC_Anterior = -1;
             string Pref_Anterior = "";
@@ -846,6 +856,9 @@ namespace Documents
                         Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", data);
 
                     }
+
+                    lineaMedioPago = $"1|{consulta[INDICE_MEDIOPAGO]}|{consulta[INDICE_MEDIOPAGO + 1]}|{consulta[INDICE_MEDIOPAGO + 2]}|{consulta[INDICE_MEDIOPAGO + 3]}";
+                    Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "MedioPago", lineaMedioPago);
 
                     //  Llenar primer Item
                     if (iterador == INDICE_ITEM)

@@ -26,8 +26,8 @@ C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\bin\Release\Configuracion.d
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\bin\Release\Newtonsoft.Json.dll
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\bin\Release\Configuracion.pdb
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\bin\Release\Newtonsoft.Json.xml
-C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\obj\Release\Documentos.csprojAssemblyReference.cache
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\obj\Release\Documentos.csproj.CoreCompileInputs.cache
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\obj\Release\Documentos.csproj.CopyComplete
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\obj\Release\Documents.dll
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\obj\Release\Documents.pdb
+C:\Users\Binary\Desktop\ConectorPenalisaFE\Documents\obj\Release\Documentos.csproj.AssemblyReference.cache
