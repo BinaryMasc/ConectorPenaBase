@@ -16,3 +16,11 @@ C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\obj\Debug\Gestion
 C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\obj\Debug\GestionErrores.csproj.CopyComplete
 C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\obj\Debug\GestionErrores.dll
 C:\Users\Binary\source\repos\ConectorPenalisaFE\GestionErrores\obj\Debug\GestionErrores.pdb
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\GestionErrores\bin\Debug\GestionErrores.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\GestionErrores\bin\Debug\GestionErrores.pdb
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\GestionErrores\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\GestionErrores\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\GestionErrores\obj\Debug\GestionErrores.csproj.CoreCompileInputs.cache
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\GestionErrores\obj\Debug\GestionErrores.csproj.CopyComplete
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\GestionErrores\obj\Debug\GestionErrores.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\GestionErrores\obj\Debug\GestionErrores.pdb

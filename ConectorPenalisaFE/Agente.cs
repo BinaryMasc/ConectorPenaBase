@@ -83,6 +83,21 @@ namespace ConectorPenalisaFE
                 return;
             }
 
+            //---
+
+            if (config.GenerarJsonDocumentosConector)
+            {
+                try
+                {
+                    Funciones.GuardarDocumentos(config.RutaGuardadoJsonDocumentosFACConector, config.RutaGuardadoJsonDocumentosNOTASConector,
+                                                Lista_FACs, Lista_Notas);
+                }
+                catch (Exception e)
+                {
+                    eventos.WriteEntry("Error interno 121 al guardar documentos en el equipo: \n" + Helpers.GetExceptionDetails(e), EventLogEntryType.Error);
+                    return;
+                }
+            }
 
             //---
 
@@ -99,21 +114,7 @@ namespace ConectorPenalisaFE
 
             WSConnectDBNet.respuestas.Clear();
 
-            //---
-
-            if (config.GenerarJsonDocumentosConector)
-            {
-                try
-                {
-                    Funciones.GuardarDocumentos(config.RutaGuardadoJsonDocumentosFACConector, config.RutaGuardadoJsonDocumentosNOTASConector,
-                                                Lista_FACs, Lista_Notas);
-                }
-                catch (Exception e)
-                {
-                    eventos.WriteEntry("Error interno 121 al guardar documentos en el equipo: \n" + Helpers.GetExceptionDetails(e), EventLogEntryType.Error);
-                    return;
-                }
-            }
+            
             if(debug) eventos.WriteEntry("DEBUG: saliendo de EjecutarFacturas (Facturas)");
         }
 
@@ -200,6 +201,21 @@ namespace ConectorPenalisaFE
                 return;
             }
 
+            //---
+
+            if (config.GenerarJsonDocumentosConector)
+            {
+                try
+                {
+                    Funciones.GuardarDocumentos(config.RutaGuardadoJsonDocumentosFACConector, config.RutaGuardadoJsonDocumentosNOTASConector,
+                                                Lista_FACs, Lista_Notas);
+                }
+                catch (Exception e)
+                {
+                    eventos.WriteEntry("Error interno 221 al guardar documentos en el equipo: \n" + Helpers.GetExceptionDetails(e), EventLogEntryType.Error);
+                    return;
+                }
+            }
 
             //---
 
@@ -218,19 +234,7 @@ namespace ConectorPenalisaFE
 
             //---
 
-            if (config.GenerarJsonDocumentosConector)
-            {
-                try
-                {
-                    Funciones.GuardarDocumentos(config.RutaGuardadoJsonDocumentosFACConector, config.RutaGuardadoJsonDocumentosNOTASConector,
-                                                Lista_FACs, Lista_Notas);
-                }
-                catch (Exception e)
-                {
-                    eventos.WriteEntry("Error interno 221 al guardar documentos en el equipo: \n" + Helpers.GetExceptionDetails(e), EventLogEntryType.Error);
-                    return;
-                }
-            }
+            
             if(debug) eventos.WriteEntry("DEBUG: saliendo de EjecutarNotas");
         }
     }

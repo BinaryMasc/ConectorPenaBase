@@ -13,21 +13,23 @@ namespace ConectorPenalisaFE
     public partial class Service1 : ServiceBase
     {
 
-        //  TODO: Se establece esto para cuando se llegue a la fecha, se cambie la configuración. cambiar de base de datos
-        //        2020 a 2021
-       
-        private DateTime fechaLimiteNuevoA_o;    //temporal
+        string nombre_Variante = "ASOC_PUERTO_PENALISA";
+        string nombre_EventLog = "Conector_FE_";    //  Fuente del EventLog = "Conector_FE_" + nombre de empresa
+
 
         public Configuracion Config_Conector;
         public Service1()
         {
             InitializeComponent();
+
             //  Validamos que exista el log, sino lo creamos
-            if (!System.Diagnostics.EventLog.SourceExists("Conector_FE"))
+            if(nombre_EventLog != "Conector_FE_" + nombre_Variante) nombre_EventLog += nombre_Variante;
+
+            if (!System.Diagnostics.EventLog.SourceExists(nombre_EventLog))
             {
-                System.Diagnostics.EventLog.CreateEventSource("Conector_FE", "Agente");
+                System.Diagnostics.EventLog.CreateEventSource(nombre_EventLog, "Agente");
             }
-            eventLog1 = new EventLog("Agente", ".", "Conector_FE");
+            eventLog1 = new EventLog("Agente", ".", nombre_EventLog);
         }
 
         protected override void OnStart(string[] args)
@@ -43,7 +45,7 @@ namespace ConectorPenalisaFE
             catch (Exception e)
             {
                 eventLog1.WriteEntry("Error interno en la carga de la configuración: \n" + Helpers.GetExceptionDetails(e), EventLogEntryType.Error);
-                ServiceController sc = new ServiceController("Conector_FE");
+                ServiceController sc = new ServiceController(nombre_EventLog);
 
                 if (sc.Status == ServiceControllerStatus.Running) sc.Stop();
 
@@ -52,8 +54,6 @@ namespace ConectorPenalisaFE
             tipoDoc_Flag = false;
             //  Ajustando Timer
             ConfigTimerService(Config_Conector.IntervaloTimerConector * 60000);
-
-            fechaLimiteNuevoA_o = new DateTime(2021, 01, 01, 09, 0, 0); //  TODO
 
 
         }
@@ -69,11 +69,6 @@ namespace ConectorPenalisaFE
         public void OnTimer(object sender, ElapsedEventArgs args)
         {
             timer1.Stop();
-
-            //  TODO: Después de la fecha indicada, esta condición es inútil
-            if (DateTime.Now.Date < fechaLimiteNuevoA_o.Date) Config_Conector.Nombre_BBDD = "SIIMED0012020";
-            else Config_Conector.Nombre_BBDD = "SIIMED0012021";
-
             try
             {
                 if (tipoDoc_Flag) Agente.EjecutarFac(Config_Conector, ref eventLog1);

@@ -58,7 +58,6 @@
     <Compile Include="ConectorPanel.Designer.cs">
       <DependentUpon>ConectorPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataRows.cs" />
     <Compile Include="FormConfig.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -37,3 +37,16 @@ C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Debug\WSConnectDBN
 C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Debug\WSConnectDBNet.csproj.CopyComplete
 C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Debug\WSConnectDBNet.dll
 C:\Users\Binary\Desktop\ConectorPenalisaFE\WSConnectDBNet\obj\Debug\WSConnectDBNet.pdb
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\bin\Debug\WSConnectDBNet.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\bin\Debug\WSConnectDBNet.pdb
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\bin\Debug\GestionErrores.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\bin\Debug\RestSharp.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\bin\Debug\GestionErrores.pdb
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\bin\Debug\RestSharp.xml
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\obj\Debug\WSConnectDBNet.csproj.AssemblyReference.cache
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\obj\Debug\WSConnectDBNet.csproj.CoreCompileInputs.cache
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\obj\Debug\WSConnectDBNet.csproj.CopyComplete
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\obj\Debug\WSConnectDBNet.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\WSConnectDBNet\obj\Debug\WSConnectDBNet.pdb
