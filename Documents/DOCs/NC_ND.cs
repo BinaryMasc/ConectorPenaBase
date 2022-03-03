@@ -64,7 +64,8 @@ namespace Documents.DOCs
                 TotalBrutoDocumentoImpu = datosRelleno[32];
                 TotalDocumento = datosRelleno[33];
                 if(TipoAdquirente == "02" || TipoAdquirente == "2") NombreAdquirente = datosRelleno[34];
-                ActividadEconomicaEmisor = "3600";
+                ActividadEconomicaEmisor = "9499";
+
             }
             else if (tipo == "Direccion")
             {
@@ -141,6 +142,7 @@ namespace Documents.DOCs
                 MailOculto = datosRelleno[3];
                 MailTipo = datosRelleno[4];
             }
+
             else if (tipo == "MedioPago")
             {
                 LineaMedioPago = datosRelleno[0];
@@ -189,7 +191,13 @@ namespace Documents.DOCs
         public string TotalDocumento { get; set; }
         public string NombreAdquirente { get; set; }
         public string ActividadEconomicaEmisor { get; set; }
-        
+
+        public string LineaMedioPago { get; set; }
+        public string IdMedioPago { get; set; }
+        public string CodigoMedioPago { get; set; }
+        public string FechaMedioPago { get; set; }
+        public string IdentificadorPago { get; set; }
+
         public string LineaDireccion { get; set; }
         public string TipoDireccion { get; set; }
         public string IdDUNS { get; set; }
@@ -215,13 +223,6 @@ namespace Documents.DOCs
         public string PorcentajeImpuesto { get; set; }
         public string NumeroImpuesto { get; set; }
         public string NombreImpuesto { get; set; }
-
-        public string LineaMedioPago { get; set; }
-        public string IdMedioPago { get; set; }
-        public string CodigoMedioPago { get; set; }
-        public string FechaMedioPago { get; set; }
-        public string IdentificadorPago { get; set; }
-
         public string LineaItem { get; set; }
         public string DescripcionItem { get; set; }
         public string CantidadItem { get; set; }

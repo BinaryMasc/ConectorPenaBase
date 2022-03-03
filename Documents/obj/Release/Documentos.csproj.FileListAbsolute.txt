@@ -42,14 +42,25 @@ C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-master\Document
 C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-master\Documents\obj\Release\Documentos.csproj.CopyComplete
 C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-master\Documents\obj\Release\Documents.dll
 C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-master\Documents\obj\Release\Documents.pdb
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\bin\Release\Documents.dll
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\bin\Release\Documents.pdb
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\bin\Release\Configuracion.dll
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\bin\Release\Newtonsoft.Json.dll
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\bin\Release\Configuracion.pdb
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\bin\Release\Newtonsoft.Json.xml
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\obj\Release\Documentos.csproj.CoreCompileInputs.cache
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\obj\Release\Documentos.csproj.CopyComplete
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\obj\Release\Documents.dll
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\obj\Release\Documents.pdb
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Documents\obj\Release\Documentos.csproj.AssemblyReference.cache
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Documents.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Documents.pdb
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Configuracion.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Newtonsoft.Json.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Configuracion.pdb
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Newtonsoft.Json.xml
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documentos.csproj.AssemblyReference.cache
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documentos.csproj.CoreCompileInputs.cache
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documentos.csproj.CopyComplete
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documents.dll
+C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documents.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Documents.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Documents.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Configuracion.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Newtonsoft.Json.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Configuracion.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\bin\Release\Newtonsoft.Json.xml
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documentos.csproj.AssemblyReference.cache
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documentos.csproj.CoreCompileInputs.cache
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documentos.csproj.CopyComplete
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documents.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\Documents\obj\Release\Documents.pdb

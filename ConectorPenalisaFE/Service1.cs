@@ -13,7 +13,7 @@ namespace ConectorPenalisaFE
     public partial class Service1 : ServiceBase
     {
 
-        string nombre_Variante = "ASOC_PUERTO_PENALISA";
+        string nombre_Variante = "FUNDACION_PUERTO_PENALISA";
         string nombre_EventLog = "Conector_FE_";    //  Fuente del EventLog = "Conector_FE_" + nombre de empresa
 
 

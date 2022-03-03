@@ -1,0 +1,25 @@
+
+Archivo a procesar : E:\home\\in\carg_AEI_ubl21\\scg8.p32947_20210108T155945.log
+Tipo de Archivo    : Archivo AEI - Colombia
+
+Detalle de Revision
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+obj2formatAEI : Campo [NombrePais] no existe en registro [Direccion]  LINEA[99]  COLUMNA[32]
+
+obj2formatAEI : Campo [NombrePais] no existe en registro [Direccion]  LINEA[113]  COLUMNA[32]
+
+DBgetExtensions : No se encontro software asociado a : [800201295] [BOGT] [FE]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Inicio revision : 2021-01-08 15:59:45
+Termino revision : 2021-01-08 15:59:45
+
+Registros leidos  :             27
+     Registros skipped    :              0
+     Registros validos    :             27
+     Registros rechazados :              0
+
+       Errores detectados :              1
+==============================================================================================================================================================================
+

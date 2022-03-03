@@ -19,7 +19,7 @@ namespace ConfiguracionNS
 
             Configuracion config = new Configuracion();
 
-            string path = "C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\data.config";
+            string path = "C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\data.config";
 
             if (!File.Exists(path)) 
                 throw new Exception("El archivo de configuración: '" + path + "' no existe. ");
@@ -90,22 +90,22 @@ namespace ConfiguracionNS
 
         public static void GuardarConfiguracion(FileConfig fconfig)
         {
-            string path = "C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\data.config";
+            string path = "C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\data.config";
             //  Crea las carpetas si no existen
-           // if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\"))
-                //Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena");
+            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\"))
+                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena");
 
-            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\Facturas_Generadas\\"))
-                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\Facturas_Generadas");
+            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\Facturas_Generadas\\"))
+                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\Facturas_Generadas");
 
-            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\Notas_Generadas\\"))
-                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\Notas_Generadas");
+            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\Notas_Generadas\\"))
+                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\Notas_Generadas");
 
-            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\Notas_Generadas\\"))
-                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\Respuestas_FAC");
+            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\Notas_Generadas\\"))
+                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\Respuestas_FAC");
 
-            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\Notas_Generadas\\"))
-                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_AsocPena\\Respuestas_Notas");
+            if (!Directory.Exists("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\Notas_Generadas\\"))
+                Directory.CreateDirectory("C:\\Users\\" + "Administrador" + "\\Documents\\ConectorFE_FunClubPena\\Respuestas_Notas");
 
             //  Guardamos la configuración
             File.WriteAllText(path, JsonConvert.SerializeObject(fconfig));

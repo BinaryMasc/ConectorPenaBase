@@ -106,7 +106,7 @@ namespace ConectorPenalisaFE
 
         private static SqlDataReader ObtenerNumerosdeFacturas(Configuracion config, ref SqlConnection conexion)
         {
-            string consultaString = "SELECT DISTINCT TOP 1 Correlativo, Prefijo From " + config.NombreVistaFAC + " WHERE Estado is null";
+            string consultaString = "SELECT DISTINCT TOP 5 Correlativo, Prefijo From " + config.NombreVistaFAC + " WHERE Estado is null";
 
             SqlCommand CMDConexion = new SqlCommand(consultaString, conexion);
             SqlDataReader consulta = CMDConexion.ExecuteReader();
@@ -189,9 +189,8 @@ namespace ConectorPenalisaFE
                 "RSocApeAdquirente,TipoReceptorPago,TipoIdenReceptorPago,IdentificacionReceptorPago,NombreReceptorPago,TotalBrutoDocumento," +
                 "BaseImponibleDocumento,TotalBrutoDocumentoImpu,TotalDocumento,NombreAdquiriente," +    //  Encabezado
                 "TipoDireccion,IdDUNS,ApartadoPostal,Direccion,Area,Ciudad,Departamento,CodigoDepartamento,CodigoPais,NombrePais," +
-                "TipoContacto,NombreContacto,TelefonoContacto,MailContacto,CodigoSocio," +
-                "MonedaImpuesto,TotalImpuesto,IndicadorImpuesto,BaseImponible,PorcentajeImpuesto,NumeroImpuesto,NombreImpuesto," +
-                "IdMedioPagos,CodigoMedioPago,FechaMedioPago,IdentificadorPago,LineaItem," +
+                "TipoContacto,NombreContacto,TelefonoContacto,MailContacto,CodigoSocio,MonedaImpuesto,TotalImpuesto,IndicadorImpuesto,BaseImponible," +
+                "PorcentajeImpuesto,NumeroImpuesto,NombreImpuesto,IdMedioPagos,CodigoMedioPago,FechaMedioPago,IdentificadorPago,LineaItem," +
                 "DescripcionItem,CantidadItem,UnidadMedidaItem,MonedaItem,ValorUnitarioItem,CostoTotalItem,CodigoTipoPrecio,MarcaItem,ModeloItem," +
                 "NotaItem,LineaImpuestoItem,MonedaImpuestoItem,TotalImpuestoItem,BaseImponibleItem,PorcentajeImpuestoItem,NumeroImpuestoItem," +
                 "NombreImpuestoItem,UnidadMedidaImpItem," +
@@ -221,7 +220,10 @@ namespace ConectorPenalisaFE
             "PrefijoFacturaAfectada,NumeroFacturaAfectada,FechaEmisionFacturaAfectada," +
 
             //  MedioPago (4 elementos) [76 - 79]
-            "IdMedioPagos, CodigoMedioPago, FechaMedioPago, IdentificadorPago";
+            "IdMedioPagos, CodigoMedioPago, FechaMedioPago, IdentificadorPago," +
+
+            //  Impuesto2 (6 elementos) [80 - 86]
+            "TotalImpuesto2, IndicadorImpuesto2, BaseImponible2, PorcentajeImpuesto2, NumeroImpuesto2, NombreImpuesto2";
 
 
         public static string Base64Decode(string base64EncodedData)

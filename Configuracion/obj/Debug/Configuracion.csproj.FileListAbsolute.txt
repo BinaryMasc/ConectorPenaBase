@@ -16,11 +16,3 @@ C:\Users\Binary\Desktop\ConectorPenalisaFE\Configuracion\obj\Debug\Configuracion
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Configuracion\obj\Debug\Configuracion.csproj.CopyComplete
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Configuracion\obj\Debug\Configuracion.dll
 C:\Users\Binary\Desktop\ConectorPenalisaFE\Configuracion\obj\Debug\Configuracion.pdb
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Configuracion\bin\Debug\Configuracion.dll
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Configuracion\bin\Debug\Configuracion.pdb
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Configuracion\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Configuracion\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Configuracion\obj\Debug\Configuracion.csproj.CoreCompileInputs.cache
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Configuracion\obj\Debug\Configuracion.csproj.CopyComplete
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Configuracion\obj\Debug\Configuracion.dll
-C:\Users\Binary\Desktop\ConectorPenaBase-master\ConectorPenaBase-ASOCIACION\ConectorPenaBase-master\Configuracion\obj\Debug\Configuracion.pdb
