@@ -148,3 +148,28 @@ C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBa
 C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.csproj.CopyComplete
 C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.exe
 C:\Users\Binary\Desktop\Nueva carpeta (2)\ConectorPenaBase-master\ConectorPenaBase-FUNDACION\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\ConectorPenalisaFE.exe.config
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\ConectorPenalisaFE.exe
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\ConectorPenalisaFE.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\Configuracion.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\Documents.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\GestionErrores.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\Newtonsoft.Json.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\WSConnectDBNet.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\RestSharp.dll
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\Configuracion.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\Documents.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\GestionErrores.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\WSConnectDBNet.pdb
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\Newtonsoft.Json.xml
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\bin\Release\RestSharp.xml
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.csproj.AssemblyReference.cache
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.ConectorPanel.resources
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.FormConfig.resources
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.ProjectInstaller.resources
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.Service1.resources
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.csproj.GenerateResource.cache
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.csproj.CoreCompileInputs.cache
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.csproj.CopyComplete
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.exe
+C:\Users\Binary\Desktop\Nueva carpeta (2)\Proyecto Peñalisa Nuevo\ConectorPenalisaFE\obj\Release\ConectorPenalisaFE.pdb

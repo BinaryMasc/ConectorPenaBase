@@ -106,7 +106,7 @@ namespace ConectorPenalisaFE
 
         private static SqlDataReader ObtenerNumerosdeFacturas(Configuracion config, ref SqlConnection conexion)
         {
-            string consultaString = "SELECT DISTINCT TOP 5 Correlativo, Prefijo From " + config.NombreVistaFAC + " WHERE Estado is null";
+            string consultaString = "SELECT DISTINCT TOP 1 Correlativo, Prefijo From " + config.NombreVistaFAC + " WHERE Estado is null";
 
             SqlCommand CMDConexion = new SqlCommand(consultaString, conexion);
             SqlDataReader consulta = CMDConexion.ExecuteReader();
