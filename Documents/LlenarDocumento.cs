@@ -658,11 +658,13 @@ namespace Documents
             string lineareferencia = "";
             string lineaMedioPago = "";
 
+            bool medioPagoRegistrado = false;
+
             int DOC_Anterior = -1;
             string Pref_Anterior = "";
 
             //  Comienza el recorrido por los campos para extraer
-            while(consulta.Read())
+            while (consulta.Read())
             {
 
                 //--- TODO
@@ -704,7 +706,7 @@ namespace Documents
 
                     while (iterador < INDICE_ITEM + CAMPOS_ITEM)
                     {
-                        
+
                         data += "|" + consulta[iterador].ToString();
 
                         iterador++;
@@ -743,7 +745,7 @@ namespace Documents
                 }
                 else if (DOC_Anterior != -1) break;
 
-                while(iterador < consulta.FieldCount)
+                while (iterador < consulta.FieldCount)
                 {
                     string data = "";
 
@@ -843,7 +845,7 @@ namespace Documents
                     //  Llenar Impuesto
                     if (iterador == INDICE_IMPUESTO)
                     {
-                        //  Si base imponible es 0, omitir
+
                         if (consulta[INDICE_IMPUESTO + 3].ToString() == "0.00")
                             iterador = INDICE_ITEM;
 
@@ -864,7 +866,7 @@ namespace Documents
                             Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", data);
                         }
 
-                        
+
 
                         //  Definimos el segundo impuesto en caso de que venga != ""
                         if (consulta[INDICE_IMPUESTO2 + 2].ToString() != "" && consulta[INDICE_IMPUESTO2 + 2].ToString() != "0.00")
@@ -874,12 +876,22 @@ namespace Documents
                             Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", impuesto2);
                         }
 
+
                     }
 
-                    
 
-                    lineaMedioPago = $"1|{consulta[INDICE_MEDIOPAGO]}|{consulta[INDICE_MEDIOPAGO + 1]}|{consulta[INDICE_MEDIOPAGO + 2]}|{consulta[INDICE_MEDIOPAGO + 3]}";
-                    Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "MedioPago", lineaMedioPago);
+
+
+
+
+                    if (!medioPagoRegistrado)
+                    {
+                        lineaMedioPago = $"1|{consulta[INDICE_MEDIOPAGO]}|{consulta[INDICE_MEDIOPAGO + 1]}|{consulta[INDICE_MEDIOPAGO + 2]}|{consulta[INDICE_MEDIOPAGO + 3]}";
+                        Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "MedioPago", lineaMedioPago);
+
+                        medioPagoRegistrado = true;
+                    }
+
 
                     //  Llenar primer Item
                     if (iterador == INDICE_ITEM)
@@ -932,11 +944,11 @@ namespace Documents
                     //  Llenar Referencia
                     if (iterador == INDICE_REFERENCIA)
                     {
-                        data = $"1|FA|{consulta[iterador].ToString() + consulta[iterador+1].ToString()}|{consulta[iterador+2].ToString()}|FE";
-                            
+                        data = $"1|FA|{consulta[iterador].ToString() + consulta[iterador + 1].ToString()}|{consulta[iterador + 2].ToString()}|FE";
+
                         //data += "|" + consulta[iterador].ToString();
 
-                        iterador+= CAMPOS_REFERENCIA+1;
+                        iterador += CAMPOS_REFERENCIA + 1;
 
                         //data += "|" + "FE";
                         lineareferencia = data;
