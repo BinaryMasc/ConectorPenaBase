@@ -18,7 +18,7 @@ namespace Documents
 
 
 
-            string fac_Anterior  = "";
+            string fac_Anterior = "";
             string nota_Anterior = "";
 
             while (consulta.Read())
@@ -87,7 +87,7 @@ namespace Documents
         private static void ConstruirFAC(SqlDataReader consulta, Configuracion config, string token, ref List<FAC.FAC> facturas)
         {
 
-            string idEmpresa   = config.idEmpresaDBNet;
+            string idEmpresa = config.idEmpresaDBNet;
             string UserEmpresa = config.UserEmpresaDBNet;
 
 
@@ -96,7 +96,7 @@ namespace Documents
                                                               config.Direccion, '|', config.Area, '|', config.Ciudad, '|', config.Departamento, '|',
                                                               config.CodigoDepartamento, '|', config.CodigoPais, '|', config.NombrePais);
             //  Crear Linea Contacto adquiriente
-            string LineaContactoEmisor  = string.Concat("1|", config.TipoContacto, '|', config.NombreContacto, '|', config.TelefonoContacto, '|',
+            string LineaContactoEmisor = string.Concat("1|", config.TipoContacto, '|', config.NombreContacto, '|', config.TelefonoContacto, '|',
                                                               config.MailContacto, '|', config.DescripcionContacto);
 
             //
@@ -187,7 +187,7 @@ namespace Documents
                     while (iterador < INDICE_ITEM + CAMPOS_ITEM)
                     {
                         if (iterador == INDICE_ITEM + 6) data += "|" + consulta[INDICE_IMPUESTOITEM + 3].ToString();
-                        else if (iterador  == IndiceNotaItem) data += "|" + $"#Bodega: [{consulta[IndiceBodegaItem].ToString()}]; #Referencia: [{consulta[IndiceReferenciaItem].ToString()}]; #Fecha: [{fechaDoc}]; #Codigo: [{consulta[IndiceCodigoItem].ToString()}]; #Documento: [{consulta[IndiceDocumentoItem].ToString()}];";
+                        else if (iterador == IndiceNotaItem) data += "|" + $"#Bodega: [{consulta[IndiceBodegaItem].ToString()}]; #Referencia: [{consulta[IndiceReferenciaItem].ToString()}]; #Fecha: [{fechaDoc}]; #Codigo: [{consulta[IndiceCodigoItem].ToString()}]; #Documento: [{consulta[IndiceDocumentoItem].ToString()}];";
                         else data += "|" + consulta[iterador].ToString();
 
                         iterador++;
@@ -266,7 +266,7 @@ namespace Documents
                             }
 
                             //  Registrar Serie
-                            if(iterador == 1)
+                            if (iterador == 1)
                             {
                                 serie = consulta[iterador].ToString();
                             }
@@ -281,7 +281,7 @@ namespace Documents
                                 continue;
                             }
 
-                            if(iterador == IndiceNotaDocumento)
+                            if (iterador == IndiceNotaDocumento)
                             {
                                 data += $"|#Periodo desde: [{consulta[IndiceFechaPeriodoInicioFacturacion].ToString()}];" +
                                     $" #Periodo hasta: [{consulta[IndiceFechaPeriodoFinFacturacion].ToString()}];" +
@@ -411,7 +411,7 @@ namespace Documents
                             else if (iteradorTemp == 6) data += "|" + consulta[INDICE_IMPUESTOITEM + 3].ToString();
 
                             else if (iterador == IndiceNotaItem) data += "|" + $"#Bodega: [{consulta[IndiceBodegaItem].ToString()}]; #Referencia: [{consulta[IndiceReferenciaItem].ToString()}]; #Fecha: [{fechaDoc}]; #Codigo: [{consulta[IndiceCodigoItem].ToString()}]; #Documento: [{consulta[IndiceDocumentoItem].ToString()}];";
-                            
+
                             else data += "|" + consulta[iterador].ToString();
 
                             iterador++;
@@ -441,7 +441,7 @@ namespace Documents
                     }
 
                     //  Campos Adicionales Item
-                    if(iterador == INDICE_INFO_ADICIONAL_REPETIBLE)
+                    if (iterador == INDICE_INFO_ADICIONAL_REPETIBLE)
                     {
                         iterador += CAMPOS_INFO_ADICIONAL_REPETIBLE;
                     }
@@ -453,22 +453,22 @@ namespace Documents
                     if (iterador == INDICE_DATOS_ADICIONALES)
                     {
                         const int CampoInicial = INDICE_DATOS_ADICIONALES;
-                        
+
                         const int INDICE_CARGOS1 = 0 + CampoInicial;
                         const int INDICE_CARGOS2 = 1 + CampoInicial;
-                        const int INDICE_ABONOS  = 2 + CampoInicial;
+                        const int INDICE_ABONOS = 2 + CampoInicial;
                         const int INDICE_SUBTOTAL_CARGOS1 = 3 + CampoInicial;
                         const int INDICE_SUBTOTAL_CARGOS2 = 4 + CampoInicial;
-                        const int INDICE_SUBTOTAL_ABONOS  = 5 + CampoInicial;
+                        const int INDICE_SUBTOTAL_ABONOS = 5 + CampoInicial;
                         const int INDICE_OTROS_CARGOS = 6 + CampoInicial;
                         const int INDICE_CargosDelMes = 7 + CampoInicial;
                         const int INDICE_AbonosDelMes = 8 + CampoInicial;
-                        const int INDICE_ValorEnMora  = 9 + CampoInicial;
+                        const int INDICE_ValorEnMora = 9 + CampoInicial;
                         const int INDICE_PagueAntesDe = 10 + CampoInicial;
-                        const int INDICE_ValorAPagar  = 11 + CampoInicial;
-                        const int INDICE_TipoFac      = 12 + CampoInicial;
+                        const int INDICE_ValorAPagar = 11 + CampoInicial;
+                        const int INDICE_TipoFac = 12 + CampoInicial;
 
-                        
+
 
                         //  Definir tipo de factura
                         Funciones.crearLineaAdicional(ref DatosVariables, "TIPO: " + consulta[INDICE_TipoFac].ToString());
@@ -486,21 +486,21 @@ namespace Documents
 
                         string Cargos1 = consulta[INDICE_CARGOS1].ToString();
                         string Cargos2 = consulta[INDICE_CARGOS2].ToString();
-                        string Abonos  = consulta[INDICE_ABONOS].ToString();
+                        string Abonos = consulta[INDICE_ABONOS].ToString();
 
 
                         //  Subtotales
                         string SubtotalCargos1 = (consulta[INDICE_SUBTOTAL_CARGOS1].ToString());
                         string SubtotalCargos2 = (consulta[INDICE_SUBTOTAL_CARGOS2].ToString());
-                        string SubtotalAbonos  = (consulta[INDICE_SUBTOTAL_ABONOS].ToString());
+                        string SubtotalAbonos = (consulta[INDICE_SUBTOTAL_ABONOS].ToString());
 
                         //  Totales
-                        string OtrosCargos =  (consulta[INDICE_OTROS_CARGOS].ToString());
+                        string OtrosCargos = (consulta[INDICE_OTROS_CARGOS].ToString());
                         string CargosDelMes = (consulta[INDICE_CargosDelMes].ToString());
-                        string ValorEnMora =  (consulta[INDICE_ValorEnMora].ToString());
+                        string ValorEnMora = (consulta[INDICE_ValorEnMora].ToString());
                         string PagueAntesDe = consulta[INDICE_PagueAntesDe].ToString();
                         string AbonosDelMes = (consulta[INDICE_AbonosDelMes].ToString());
-                        string ValorAPagar =  (consulta[INDICE_ValorAPagar].ToString());
+                        string ValorAPagar = (consulta[INDICE_ValorAPagar].ToString());
 
 
                         Funciones.crearLineaAdicional(ref DatosVariables, Cargos1);
@@ -549,7 +549,7 @@ namespace Documents
                         factura_Anterior = (int)Convert.ToDouble(consulta[2].ToString());
                         Pref_Anterior = consulta[1].ToString();
                         break;
-                        
+
                     }
 
 
@@ -642,6 +642,7 @@ namespace Documents
             const int INDICE_IMPUESTOITEM = 66;
             const int INDICE_REFERENCIA = 73;
             const int INDICE_MEDIOPAGO = 76;
+            const int INDICE_IMPUESTO2 = 80;
 
             const int CAMPOS_ENCABEZADO = 34;
             const int CAMPOS_DIRECCION = 10;
@@ -656,8 +657,6 @@ namespace Documents
 
             string lineareferencia = "";
             string lineaMedioPago = "";
-
-            bool medioPagoRegistrado = false;
 
             int DOC_Anterior = -1;
             string Pref_Anterior = "";
@@ -844,25 +843,27 @@ namespace Documents
                     //  Llenar Impuesto
                     if (iterador == INDICE_IMPUESTO)
                     {
-<<<<<<< HEAD
-
+                        //  Si base imponible es 0, omitir
                         if (consulta[INDICE_IMPUESTO + 3].ToString() == "0.00")
                             iterador = INDICE_ITEM;
 
-=======
-                        data = "1";
-                        int iteradorTemp = 0;
->>>>>>> parent of 680cc62 (update 2022)
 
-                        while (iteradorTemp < CAMPOS_IMPUESTO)
+                        else
                         {
+                            data = "1";
+                            int iteradorTemp = 0;
 
-                            data += "|" + consulta[iterador].ToString();
-                            iterador++;
-                            iteradorTemp++;
+                            while (iteradorTemp < CAMPOS_IMPUESTO)
+                            {
+
+                                data += "|" + consulta[iterador].ToString();
+                                iterador++;
+                                iteradorTemp++;
+                            }
+
+                            Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", data);
                         }
 
-<<<<<<< HEAD
 
 
                         //  Definimos el segundo impuesto en caso de que venga != ""
@@ -872,31 +873,13 @@ namespace Documents
                             var impuesto2 = $"2|COP|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}";
                             Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", impuesto2);
                         }
-=======
-                        Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", data);
->>>>>>> parent of 680cc62 (update 2022)
-
 
                     }
 
-<<<<<<< HEAD
 
 
-
-
-
-                    if (!medioPagoRegistrado)
-                    {
-                        lineaMedioPago = $"1|{consulta[INDICE_MEDIOPAGO]}|{consulta[INDICE_MEDIOPAGO + 1]}|{consulta[INDICE_MEDIOPAGO + 2]}|{consulta[INDICE_MEDIOPAGO + 3]}";
-                        Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "MedioPago", lineaMedioPago);
-
-                        medioPagoRegistrado = true;
-                    }
-
-=======
                     lineaMedioPago = $"1|{consulta[INDICE_MEDIOPAGO]}|{consulta[INDICE_MEDIOPAGO + 1]}|{consulta[INDICE_MEDIOPAGO + 2]}|{consulta[INDICE_MEDIOPAGO + 3]}";
                     Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "MedioPago", lineaMedioPago);
->>>>>>> parent of 680cc62 (update 2022)
 
                     //  Llenar primer Item
                     if (iterador == INDICE_ITEM)
@@ -926,18 +909,22 @@ namespace Documents
                     //  Llenar ImpuestoItem
                     if (iterador == INDICE_IMPUESTOITEM)
                     {
-                        data = "";
-                        int iteradorTemp = 0;
-
-                        while (iteradorTemp < CAMPOS_IMPUESTOITEM)
+                        //  Se evalúa que la base imponible != 0, sino, se omite
+                        if (consulta[INDICE_IMPUESTOITEM + 3].ToString() != "" && consulta[INDICE_IMPUESTOITEM + 3].ToString() != "0.00")
                         {
-                            if (iteradorTemp == 0) data += consulta[iterador].ToString();
-                            else data += "|" + consulta[iterador].ToString();
-                            iterador++;
-                            iteradorTemp++;
-                        }
+                            data = "";
+                            int iteradorTemp = 0;
 
-                        Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "ImpuestoItem", data);
+                            while (iteradorTemp < CAMPOS_IMPUESTOITEM)
+                            {
+                                if (iteradorTemp == 0) data += consulta[iterador].ToString();
+                                else data += "|" + consulta[iterador].ToString();
+                                iterador++;
+                                iteradorTemp++;
+                            }
+
+                            Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "ImpuestoItem", data);
+                        }
 
                     }
 
