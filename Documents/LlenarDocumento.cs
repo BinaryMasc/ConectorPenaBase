@@ -642,7 +642,6 @@ namespace Documents
             const int INDICE_IMPUESTOITEM = 66;
             const int INDICE_REFERENCIA = 73;
             const int INDICE_MEDIOPAGO = 76;
-            const int INDICE_IMPUESTO2 = 80;
 
             const int CAMPOS_ENCABEZADO = 34;
             const int CAMPOS_DIRECCION = 10;
@@ -845,27 +844,25 @@ namespace Documents
                     //  Llenar Impuesto
                     if (iterador == INDICE_IMPUESTO)
                     {
+<<<<<<< HEAD
 
                         if (consulta[INDICE_IMPUESTO + 3].ToString() == "0.00")
                             iterador = INDICE_ITEM;
 
+=======
+                        data = "1";
+                        int iteradorTemp = 0;
+>>>>>>> parent of 680cc62 (update 2022)
 
-                        else
+                        while (iteradorTemp < CAMPOS_IMPUESTO)
                         {
-                            data = "1";
-                            int iteradorTemp = 0;
 
-                            while (iteradorTemp < CAMPOS_IMPUESTO)
-                            {
-
-                                data += "|" + consulta[iterador].ToString();
-                                iterador++;
-                                iteradorTemp++;
-                            }
-
-                            Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", data);
+                            data += "|" + consulta[iterador].ToString();
+                            iterador++;
+                            iteradorTemp++;
                         }
 
+<<<<<<< HEAD
 
 
                         //  Definimos el segundo impuesto en caso de que venga != ""
@@ -875,10 +872,14 @@ namespace Documents
                             var impuesto2 = $"2|COP|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}|{consulta[carry++].ToString()}";
                             Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", impuesto2);
                         }
+=======
+                        Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "Impuesto", data);
+>>>>>>> parent of 680cc62 (update 2022)
 
 
                     }
 
+<<<<<<< HEAD
 
 
 
@@ -892,6 +893,10 @@ namespace Documents
                         medioPagoRegistrado = true;
                     }
 
+=======
+                    lineaMedioPago = $"1|{consulta[INDICE_MEDIOPAGO]}|{consulta[INDICE_MEDIOPAGO + 1]}|{consulta[INDICE_MEDIOPAGO + 2]}|{consulta[INDICE_MEDIOPAGO + 3]}";
+                    Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "MedioPago", lineaMedioPago);
+>>>>>>> parent of 680cc62 (update 2022)
 
                     //  Llenar primer Item
                     if (iterador == INDICE_ITEM)
@@ -921,22 +926,18 @@ namespace Documents
                     //  Llenar ImpuestoItem
                     if (iterador == INDICE_IMPUESTOITEM)
                     {
-                        //  Se evalúa que la base imponible != 0, sino, se omite
-                        if (consulta[INDICE_IMPUESTOITEM + 3].ToString() != "" && consulta[INDICE_IMPUESTOITEM + 3].ToString() != "0.00")
+                        data = "";
+                        int iteradorTemp = 0;
+
+                        while (iteradorTemp < CAMPOS_IMPUESTOITEM)
                         {
-                            data = "";
-                            int iteradorTemp = 0;
-
-                            while (iteradorTemp < CAMPOS_IMPUESTOITEM)
-                            {
-                                if (iteradorTemp == 0) data += consulta[iterador].ToString();
-                                else data += "|" + consulta[iterador].ToString();
-                                iterador++;
-                                iteradorTemp++;
-                            }
-
-                            Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "ImpuestoItem", data);
+                            if (iteradorTemp == 0) data += consulta[iterador].ToString();
+                            else data += "|" + consulta[iterador].ToString();
+                            iterador++;
+                            iteradorTemp++;
                         }
+
+                        Funciones.AgregarCampoNota(ref InformacionDocumentoNota, "ImpuestoItem", data);
 
                     }
 

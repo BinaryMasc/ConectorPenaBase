@@ -203,10 +203,8 @@ namespace ConectorPenalisaFE
         public static string campos_VistaNotas =
             //  Encabezado (34 elementos) [0 - 33]
             "TipoDocumento,Prefijo,Correlativo,FechaEmision,HoraEmision,TipoOperacion,TipoFactura,MonedaDocumento,NotaDocumento,TipoEmisor,TipoIdenEmisor,IdentificacionEmisor,DigitoVerificadorEmisor,RegimenEmisor,CodigoRespEmisor,NomComerEmisor,RSocApeEmisor,TipoAdquirente,TipoIdenAdquirente,IdentificacionAdquirente,DigitoVerificadorAdquiriente,RegimenAdquirente,CodigoRespAdquiriente,NomComerAdquirente,RSocApeAdquirente,TipoReceptorPago,TipoIdenReceptorPago,IdentificacionReceptorPago,NombreReceptorPago,TotalBrutoDocumento,BaseImponibleDocumento,TotalBrutoDocumentoImpu,TotalDocumento,NombreAdquiriente," +
-
             //  Dirección (10 elementos) [34 - 43]
             "TipoDireccion,IdDUNS,ApartadoPostal,Direccion,Area,Ciudad,Departamento,CodigoDepartamento,CodigoPais,NombrePais," +
-
             //  Contacto (4 elementos) [44 - 47]
             "TipoContacto,NombreContacto,TelefonoContacto,MailContacto," +
 
@@ -223,10 +221,7 @@ namespace ConectorPenalisaFE
             "PrefijoFacturaAfectada,NumeroFacturaAfectada,FechaEmisionFacturaAfectada," +
 
             //  MedioPago (4 elementos) [76 - 79]
-            "IdMedioPagos, CodigoMedioPago, FechaMedioPago, IdentificadorPago," +
-
-            //  Impuesto2 (6 elementos) [80 - 86]
-            "TotalImpuesto2, IndicadorImpuesto2, BaseImponible2, PorcentajeImpuesto2, NumeroImpuesto2, NombreImpuesto2";
+            "IdMedioPagos, CodigoMedioPago, FechaMedioPago, IdentificadorPago";
 
 
         public static string Base64Decode(string base64EncodedData)
